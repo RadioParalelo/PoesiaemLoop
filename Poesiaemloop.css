@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Font */
+@font-face {
+    font-family: 'virtual_djregular';
+    src: url('Fonts/vdj-webfont.woff2') format('woff2'),
+         url('Fonts/vdj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Body */
+body{
+  max-width: 100%;
+  overflow: scroll;
+  background-color: #7168e7;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Texto */
+h3{
+position: center;
+ color: #000000;
+font-family: 'virtual_djregular';
+font-weight: normal;
+font-style: normal;
+ font-size: 1.1vw;
+ max-width: 950px;
+ margin: 0 auto;
+ float: none;
+}
+h4{
+  color:  #000000;
+  font-family: 'virtual_djregular';
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 4vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+h1{
+position: center;
+ color: #000000;
+ font-family: 'virtual_djregular';
+ font-weight: normal;
+ font-style: normal;
+  font-size: 2.5vw;
+  max-width: 950px;
+  margin: 0 auto;
+  float: none;
+  }
+h2{
+position: center;
+  color: #000000;
+  font-family: 'virtual_djregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5vw;
+  max-width: 1080px;
+  margin: 0 auto;
+  float: none;
+  }
+
+/* Imagem */
+  .responsive1 {
+    width: 100%;
+    max-width: 250px;
+    color: #000000;
+    height: auto;
+  }
+
+  /* Footer */
+  .footer1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-size: 15px;
+    background-color: #000000;
+    color: #7168e7;
+    }
